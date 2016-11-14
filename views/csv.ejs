@@ -1,0 +1,10 @@
+<form method="post" enctype="multipart/form-data">
+<% if (emails.length) { %>
+<ul>
+    <% emails.forEach(function(email){ %>
+    <input type="checkbox"><%= email %><br>
+    <% }) %>
+</ul>
+<input type="submit" name="submit" value="sendEmail">
+<% } %>
+    </form>
