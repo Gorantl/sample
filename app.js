@@ -17,6 +17,8 @@ app.listen(3000,function(){
 console.log('changes for merge');
 console.log('changes for merge.......2');
 console.log('changes for merge.......3');
+
+console.log('changes for merge.......4');
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
