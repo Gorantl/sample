@@ -1,0 +1,88 @@
+<div class="cmp-frm-log-acc cmp-thb-nail-viw">
+    <div id="multiView" layout-align="start start"
+         layout-wrap layout-fill layout="row">
+        <div ng-repeat="hashTag in hashTags.hashTags | orderBy:'-' track by $index" class="ctl-mul-viw-wid"
+             ng-class="{'multiHashtag1':$index ==0}">
+            <div class="cmp-home-pge-cards" data-blur ui-sref="hashTag({hashTagName:hashTag.name,hashTagId:hashTag.id})">
+
+                <md-card class="ctx-cmp-crd-wz1 crd-wid-s8 image-came"  ng-class="{'ctl-dis-non':!hashTag.imageUrl}">
+                    <md-item-content class="ctl-new-par-view">
+                        <div class="ctl-fot-bkd">
+                            <div class="ctl-pro-ani-hgt">
+                                <div class="ctl-qus-til-hdr-s1 ctl-par-pro-s1 ctl-pro-s4">
+                                    <div class="progress">
+                            <span class="blue" style="width:0%;">
+                                <span style="color:#e6e6e6;"></span>
+                            </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ctl-fot-bkd-sml">
+                            <div class="ctl-pro-ani-hgt">
+                                <div class="ctl-qus-til-hdr-s1 ctl-par-pro-s1 ctl-pro-s4">
+                                    <div class="progress">
+                            <span class="blue" style="width:0%;">
+                                <span style="color:#e6e6e6;"></span>
+                            </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </md-item-content>
+                </md-card>
+
+                <md-card dt-progress data-id
+                         class="item ctx-cmp-crd-wz1 ctl-dis-non crd-wid-s7 image-lag <%=hashTag.backgroundColor%>" ng-class="{'ctl-act-btn-s1':!hashTag.imageUrl}"
+                         data-blur>
+                    <md-item-content class="ctl-new-par-view">
+                        <div class="ctl-qus-img-s1" layout="row">
+                            <div class="ctl-img-reg-blur"></div>
+                            <div flex="100"
+                                 flex-sm="100"
+                                 class="ctl-qus-img">
+                                <img data-image class="ctl-new-opa-col" src="https://cdn.willu.com/d.category_fashion_cmp.jpg"/>
+                                <div data-color class="ctl-new-opa-col-s1"></div>
+                            </div>
+                        </div>
+                        <div class="ctl-pub-bac-opa"></div>
+
+                        <div data-footer class="ctl-fot-bkd"></div>
+                        <div class="ctl-cnf-btm-btn ctl-dis-non" data-member>
+                        </div>
+                    </md-item-content>
+                    <div class="cmp-crd-det-ftr" style="position:relative;top:-120px;left:5px;">
+                        <div class="ctl-qus-til-hdr">
+                            <div class="ctl-inp-txt-hdr-wrp">
+                                <p class="ctl-hdr-tle-prg" style="color:white;font-size: 36px;line-height: 40px; font-weight: 100; padding: 0 10px;" title=<%= hashTag.name %> data-topic>#<span class="ctl-hash-txt"><%= hashTag.name %></span></p>
+                            </div>
+                        </div>
+                        <div flex="100" layout="row" class="ctl-crd-typ-mnu flex-100 layout-row">
+                            <ul layout="row" layout-align="start start"       }
+                                class="layout-row layout-align-start-start">
+                                <li class="" ng-if="hashTag.audience =='public'"><i
+                                            class="icons8-door-opened"></i><span><%= hashTag.audience %></span>
+                                </li>
+                                <li class="" ng-if="hashTag.audience =='private'" ><i
+                                            class="icons8-door-closed"></i><span><%= hashTag.audience %></span>
+                                </li>
+                                <li data-crowd  ng-if="hashTag.connect =='anyone'" class=""><i
+                                            class="icons8-invisible"></i><span><%= hashTag.connect %></span>
+                                </li>
+                                <li data-invite ng-if="hashTag.connect =='justme'" class=""><i
+                                            class="icons8-visible-filled"></i><span><%= hashTag.connect %></span>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </md-card>
+                <div flex="100" data-tabs data-blur>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

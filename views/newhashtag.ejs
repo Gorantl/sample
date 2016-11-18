@@ -1,0 +1,35 @@
+<html>
+<body>
+<canvas id="surface"></canvas>
+<div id="hashtag">
+
+    <img data-image class="ctl-new-opa-col" src="https://cdn.willu.com/d.category_fashion_cmp.jpg"/>
+    <div style="position:relative;top:-120px;left:5px;">
+            <div id="hashtag-name">
+                <p class="ctl-hdr-tle-prg" style="color:white;font-size: 36px;line-height: 40px; font-weight: 100; padding: 0 10px;" title=<%= hashTag.name %> data-topic>#<span class="ctl-hash-txt"><%= hashTag.name %></span></p>
+            </div>
+        <div >
+            <ul>
+                <li style="text-decoration:none" >
+                    <i class="icons8-door-opened"></i>
+                    <span><%= hashTag.audience %></span>
+                </li>
+                <li style="text-decoration:none">
+                    <i class="icons8-door-closed"></i>
+                    <span><%= hashTag.audience %></span>
+                </li>
+                <li style="text-decoration:none" >
+                    <i class="icons8-invisible"></i>
+                    <span><%= hashTag.connect %></span>
+                </li>
+                <li style="text-decoration:none">
+                    <i class="icons8-visible-filled"></i>
+                    <span><%= hashTag.connect %></span>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
