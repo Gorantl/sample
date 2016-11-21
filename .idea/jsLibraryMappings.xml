@@ -2,14 +2,5 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{sample/node_modules}" />
-    <file url="file://$PROJECT_DIR$/ctx-api/ctx-api-mvp/dev/source/y16w30/conversations" libraries="{sample/ctx-api/ctx-api-mvp/dev/source/y16w30/conversations/node_modules}" />
-    <file url="file://$PROJECT_DIR$/ctx-api/ctx-api-mvp/dev/source/y16w33/phantom" libraries="{sample/ctx-api/ctx-api-mvp/dev/source/y16w33/phantom/node_modules}" />
-    <file url="file://$PROJECT_DIR$/ctx-api/ctx-api-mvp/dev/source/y16w7/deploy" libraries="{sample/ctx-api/ctx-api-mvp/dev/source/y16w7/deploy/node_modules}" />
-    <file url="file://$PROJECT_DIR$/ctx-da/ctx-da-mvp/dev/source/y15w13" libraries="{sample/ctx-da/ctx-da-mvp/dev/source/y15w13/node_modules}" />
-    <file url="file://$PROJECT_DIR$/ctx-ext-api/ctx-ext-mvp/dev/source/ctx-ext-api/y16w7/deploy" libraries="{sample/ctx-ext-api/ctx-ext-mvp/dev/source/ctx-ext-api/y16w7/deploy/node_modules}" />
-    <file url="file://$PROJECT_DIR$/ctx-int-oauth/ctx-int-oauth-mvp/dev/deploy" libraries="{sample/ctx-int-oauth/ctx-int-oauth-mvp/dev/deploy/node_modules}" />
-    <file url="file://$PROJECT_DIR$/dev-ext-api-ses-emails-938c10a0-3caa-4832-aa1b-7d8bffe53a62" libraries="{sample/dev-ext-api-ses-emails-938c10a0-3caa-4832-aa1b-7d8bffe53a62/node_modules}" />
-    <file url="file://$PROJECT_DIR$/dev-ext-api-twilio-fa157af0-7b76-4190-8d39-93a809e33ab8" libraries="{sample/dev-ext-api-twilio-fa157af0-7b76-4190-8d39-93a809e33ab8/node_modules}" />
-    <file url="file://$PROJECT_DIR$/dev-int-api-oauth-6dccbed6-b7b2-4c59-91d5-7b304c52eb68" libraries="{sample/dev-int-api-oauth-6dccbed6-b7b2-4c59-91d5-7b304c52eb68/node_modules}" />
   </component>
 </project>
